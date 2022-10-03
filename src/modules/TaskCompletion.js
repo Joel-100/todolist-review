@@ -12,7 +12,7 @@ const markCompleted = () => {
     checkbox.addEventListener('click', () => {
       /* eslint-disable no-unused-expressions */
       if (checkbox.checked) {
-        completedValue = true
+        completedValue = true;
       } else {
         completedValue = false;
       }
