@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+body {
+  border: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+
+.container {
+  position: absolute;
+  left: 30%;
+  top: 25%;
+  background-color: white;
+  width: 700px;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
+
+input[type='text'] {
+  font-size: 1.2em;
+  padding: 15px 0;
+  background-color: transparent;
+}
+
+.title {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#addForm .tsk {
+  border: none;
+  outline: none;
+  padding: 1em;
+  width: 30em;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  padding: 0 10px;
+}
+
+.list-input {
+  width: 33em;
+  border: none;
+  outline: none;
+}
+
+.arrow svg {
+  width: 24px;
+}
+
+.form form {
+  /* padding: 15px; */
+  border-bottom: 0.2px solid grey;
+  border-top: 0.2px solid grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+  border-top: 1px;
+  background-color: whitesmoke;
+  padding: 10px;
+  box-shadow: 2px 7px 16px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 7px 16px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 7px 16px -8px rgba(0, 0, 0, 0.75);
+}
+
+footer button {
+  font-size: 18px;
+  font-weight: 100;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 1em;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+footer button:hover {
+  background-color: rgb(225, 225, 225);
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+i.delete {
+  display: none;
+  cursor: pointer;
+}
